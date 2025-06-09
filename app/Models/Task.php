@@ -15,7 +15,7 @@ class Task extends Model
     ];
     protected $casts = [
         'due_date' => 'datetime',
-        'status' => Task::class
+        'status' => 'string'
     ];
     public function user()
     {
